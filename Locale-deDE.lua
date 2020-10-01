@@ -1,0 +1,83 @@
+﻿local L = AceLibrary("AceLocale-2.2"):new("OptiTaunt")
+
+L:RegisterTranslations("deDE", function() return {
+    --Addon Stuff
+	["Tooltip"] = "Rechtsklick f\195\188r Optionen.",
+	["Slash-Commands"] = { "/optitaunt", "/ot" },
+	
+	["Statistics"] = "Statistiken",
+	["Taunts"] = "Gespottet:",
+	["Resisted"] = "Widerstanden:",
+	
+	--Skills
+	["Taunt"] = "Spott",
+	["Mocking Blow"] = "Sp\195\182ttischer Schlag",
+	["Shield Wall"] = "Schildwall",
+	["Last Stand"] = "Letztes Gefecht",
+	["Challenging Shout"] = "Herausforderungsruf",
+	["Righteous Defense"] = "Rechtschaffene Verteidigung",
+	["Avenger's Shield"] = "Schild des R\195\164chers",
+	["Growl"] = "Knurren",
+	["Frenzied Regeneration"] = "Rasende Regeneration",
+	["Challenging Roar"] = "Herausforderndes Gebr\195\188ll",
+			
+	--Messages
+	["resistmessage"] = "ACHTUNG! {t} hat meinem {a} widerstanden!",
+	["immunemessage"] = "ACHTUNG! {t} ist immun gegen meine F\195\164higkeit {a}!",
+	["abilitymessage"] = ">>> {a} aktiviert ({d}s) <<<",
+	
+	--Whisper Strings
+	["Resist-Whisper-Message-Warrior"] = "Aber zum Gl\195\188ck h\192\164ltst du ja auch einiges aus. :-)",
+	["Resist-Whisper-Message-Druid"] = "B\195\164rform ftw! :-)",
+	["Resist-Whisper-Message-Paladin"] = "Beim Hammer der Gerechtigkeit, du bist auf dich allein gestellt! :-)",
+	["Resist-Whisper-Message-Mage"] = "EISBLOCK, EISBLOCK, EISBLOCK! :-)",
+	["Resist-Whisper-Message-Warlock"] = "Wo steckt dein Leerwandler wenn man ihn mal braucht? :-)",
+	["Resist-Whisper-Message-Hunter"] = "Zeig, dass du ein guter Schauspieler bist und stell dich tot! :-)",
+	["Resist-Whisper-Message-Rogue"] = "Zeit f\195\188r einen beherzten Sprint! :-)",
+	["Resist-Whisper-Message-Priest"] = "Zeit f\195\188r ein letztes Gebet... :-)",
+	["Resist-Whisper-Message-Shaman"] = "Du und deine Totems, ihr seid auf euch allein gestellt! :-)",
+	
+	--Options
+	["opt_name_raidparty"] = "Raid/Gruppe",
+	["opt_desc_raidparty"] = "Zeigt OptiTaunt Warnungen im Gruppen- oder Raidchat.",
+	["opt_name_say"] = "Sagen",
+	["opt_desc_say"] = "Zeigt OptiTaunt Warnungen im Sagenchat.",
+	["opt_name_autowhisper"] = "Fl\195\188stern",
+	["opt_desc_autowhisper"] = "Fl\195\188stert automatisch Warnungen an den Spieler, der Aggro von dem Mob hat, das gerade dem Spott widerstanden hat.",
+	["opt_name_raidwarning"] = "Raidwarnung",
+	["opt_desc_raidwarning"] = "Zeigt OptiTaunt Warnungen als Raidwarnung.",
+	["opt_name_audio"] = "Audio-Warnungen",
+	["opt_desc_audio"] = "Spielt Warnungssound bei widerstandenem Spott.",
+	["opt_name_aggrocheck"] = "Aggro-Check",
+	["opt_desc_aggrocheck"] = "Warnt nur wenn man selbst nicht schon die Aggro hat.",
+	["opt_name_whisperwarriors"] = "Kriegern zufl\195\188stern",
+	["opt_desc_whisperwarriors"] = "OptiTaunt wird selbst Kriegern eine Warnung zufl\195\188stern wenn einem Spott widerstanden wurde.",
+	["opt_name_pvpcheck"] = "PvP-Check",
+	["opt_desc_pvpcheck"] = "Keine Warnungen, wenn wir uns im PvP befinden.",
+	["opt_name_output_sink"] = "Ausgabeoptionen (via SinkLib)",
+	["opt_name_announces"] = "F\195\164higkeiten",
+	["opt_desc_announces"] = "Welche F\195\164higkeiten sollen angek\195\188ndigt werden.",
+	["opt_name_output"] = "Ausgabeoptionen (Chat)",
+	["opt_desc_output"] = "In welchem Chat die Ausgaben gemacht werden sollen.",
+	["opt_name_outputchannel"] = "Ausgabeoptionen (Channel)",
+	["opt_desc_outputchannel"] = "In welchen Channeln die Ausgaben gemacht werden sollen.",
+	["opt_name_options"] = "Weitere Optionen",
+	["opt_desc_options"] = "Weitere Optionen.",
+	["opt_name_messagetexts"] = "Meldungstexte",
+	["opt_desc_messagetexts"] = "Die Meldungstexte frei editieren.",
+	["opt_name_resistmessage"] = "Meldungstext: widerstehen",
+	["opt_usage_resistmessage"] = "\n{t}: Name des Ziels\n{a}: F\195\164higkeit",
+	["opt_name_immunemessage"] = "Meldungstext: immun",
+	["opt_usage_immunemessage"] = "\n{t}: Name des Ziels\n{a}: F\195\164higkeit",
+	["opt_name_abilitymessage"] = "Meldungstext: F\195\164higkeit eingesetzt",
+	["opt_usage_abilitymessage"] = "\n{a}: F\195\164higkeit\n{d}: Dauer der F\195\164higkeit",
+	["Reset counters"] = "Spott-Z\195\164hler zur\195\188cksetzen",
+	["opt_desc_resetcounters"] = "Setzt den Z\195\164hler der bisherigen Spott-Statistik zur\195\188ck.",
+	["opt_name_announceresist"] = "Widerstehen ansagen",
+	["opt_desc_announceresist"] = "Schaltet Meldungen von widerstandenen Aktionen an und aus.",
+	["opt_name_announceimmue"] = "Immun ansagen",
+	["opt_desc_announceimmue"] = "Schaltet Meldungen von immunen Aktionen an und aus.",
+	["opt_name_announceability"] = "F\195\164higkeiten ansagen",
+	["opt_desc_announceability"] = "Schaltet Meldungen von eingesetzten F\195\164higkeiten an und aus.",
+	
+} end)

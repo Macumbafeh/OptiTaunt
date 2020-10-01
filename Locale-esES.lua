@@ -1,0 +1,83 @@
+﻿local L = AceLibrary("AceLocale-2.2"):new("OptiTaunt")
+
+L:RegisterTranslations("esES", function() return {
+    --Addon Stuff
+	["Tooltip"] = "Click derecho para opciones.",
+	["Slash-Commands"] = { "/optitaunt", "/ot" },
+	
+	["Statistics"] = "Estadísticas",
+	["Taunts"] = "Taunts:",
+	["Resisted"] = "Resistidos:",
+	
+	--Skills
+	["Taunt"] = "Provocar",
+	["Mocking Blow"] = "Falsa arremetida",
+	["Shield Wall"] = "Muro de escudo",
+	["Last Stand"] = "Última carga",
+	["Challenging Shout"] = "Grito desafiante",
+	["Righteous Defense"] = "Defensa justa",
+	["Avenger's Shield"] = "Escudo de vengador",
+	["Growl"] = "Bramido",
+	["Frenzied Regeneration"] = "Regeneración frenética",
+	["Challenging Roar"] = "Rugido desafiante",
+			
+	--Messages
+	["resistmessage"] = "Cuidado! {t} ha Resistido mi {a}!",
+	["immunemessage"] = "Cuidado! {t} es Inmune a mi {a}!",
+	["abilitymessage"] = ">>> {a} activo durante {d} segundos <<<",
+	
+	--Whisper Strings
+	["Resist-Whisper-Message-Warrior"] = "Cuidao que van a darte yoyas. Aguanta! :-)",
+	["Resist-Whisper-Message-Druid"] = "Cuidao que van a darte yoyas. Ponte en ozito o aprieta el culo! :-)",
+	["Resist-Whisper-Message-Paladin"] = "Cuidao que van a darte yoyas. Aguanta! :-)",
+	["Resist-Whisper-Message-Mage"] = "Cuidao que van a darte yoyas. CUBITO! :-)",
+	["Resist-Whisper-Message-Warlock"] = "Cuidao que van a darte yoyas. Ven hacia mi! :-)",
+	["Resist-Whisper-Message-Hunter"] = "Cuidao que van a darte yoyas. FEIGN DEATH! :-)",
+	["Resist-Whisper-Message-Rogue"] = "Cuidao que van a darte yoyas. VANISH!!! :-)",
+	["Resist-Whisper-Message-Priest"] = "Cuidao que van a darte yoyas. Aguanta! :-)",
+	["Resist-Whisper-Message-Shaman"] = "Cuidao que van a darte yoyas. Aguanta! :-)",
+	
+	--Options
+	["opt_name_raidparty"] = "Banda/Grupo",
+	["opt_desc_raidparty"] = "Muestra las alertas de OptiTaunt en Grupo o Chat de Banda.",
+	["opt_name_say"] = "Decir",
+	["opt_desc_say"] = "Muestra las alertas de OptiTaunt en el canal de chat normal.",
+	["opt_name_autowhisper"] = "Susurrar",
+	["opt_desc_autowhisper"] = "Susurra automaticamente una alerta al jugador que es ahora el objetivo del mob que resistió el Taunt.",
+	["opt_name_raidwarning"] = "Alerta de Banda",
+	["opt_desc_raidwarning"] = "Muestra las alertas de OptiTaunt como Alerta de Banda (estando en Banda necesitas Promote).",
+	["opt_name_audio"] = "Alerta sonora",
+	["opt_desc_audio"] = "Hace sonar una alerta sonora cuando alguno de tus taunts es resistido.",
+	["opt_name_aggrocheck"] = "Comprobar aggro",
+	["opt_desc_aggrocheck"] = "OptiTaunt sólo mandará mensajes si el Taunt falla en un objetivo del que NO retienes todavía el aggro.",
+	["opt_name_whisperwarriors"] = "Susurrar a Guerreros",
+	["opt_desc_whisperwarriors"] = "OptiTaunt susurrará incluso a otros Guerreros si alguno de tus Taunts es resistido.",
+	["opt_name_pvpcheck"] = "Check PvP",
+	["opt_desc_pvpcheck"] = "No hacer alertas estando en PvP.",
+	["opt_name_output_sink"] = "Salida (via SinkLib)",
+	["opt_name_announces"] = "Anuncios de habilidades",
+	["opt_desc_announces"] = "Qué habilidades deben anunciarse.",
+	["opt_name_output"] = "Salida (Chat)",
+	["opt_desc_output"] = "En que canales de chat se mostrarán los anuncios.",
+	["opt_name_outputchannel"] = "Salida (Canales)",
+	["opt_desc_outputchannel"] = "En que canales privados se mostrarán los anuncios.",
+	["opt_name_options"] = "Opciones adicionales",
+	["opt_desc_options"] = "Opciones adicionales",
+	["opt_name_messagetexts"] = "Mensajes de Alerta",
+	["opt_desc_messagetexts"] = "Edita tus mensajes de Alertas.",
+	["opt_name_resistmessage"] = "Mensaje de Alerta: resistido",
+	["opt_usage_resistmessage"] = "\n{t}: targetname\n{a}: ability",
+	["opt_name_immunemessage"] = "Mensaje de Alerta: inmune",
+	["opt_usage_immunemessage"] = "\n{t}: targetname\n{a}: ability",
+	["opt_name_abilitymessage"] = "Mensaje de Alerta: habilidad activada",
+	["opt_usage_abilitymessage"] = "\n{a}: ability\n{d}: duration",
+	["Reset counters"] = "Resetear contador de taunts",
+	["opt_desc_resetcounters"] = "Vuelve a poner a 0 el contador para las estadísticas de Taunts.",
+	["opt_name_announceresist"] = "Anunciar Resists",
+	["opt_desc_announceresist"] = "Activa o desactiva los anuncios de Taunts resistidos.",
+	["opt_name_announceimmue"] = "Anunciar inmunes",
+	["opt_desc_announceimmue"] = "Activa o desactiva los anuncios de mobs inmunes a Taunts.",
+	["opt_name_announceability"] = "Anunciar habilidades",
+	["opt_desc_announceability"] = "Activa o desactiva los anuncios de habiilidades activadas.",
+		
+} end)

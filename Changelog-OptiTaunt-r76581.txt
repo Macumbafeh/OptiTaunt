@@ -1,0 +1,44 @@
+------------------------------------------------------------------------
+r76581 | whyv | 2008-06-13 06:03:06 -0400 (Fri, 13 Jun 2008) | 2 lines
+Changed paths:
+   A /trunk/OptiTaunt/Locale-zhTW.lua
+   M /trunk/OptiTaunt/OptiTaunt.toc
+
+OptiTaunt:
+- Add zhTW locale
+------------------------------------------------------------------------
+r76575 | yleaf | 2008-06-13 02:08:18 -0400 (Fri, 13 Jun 2008) | 2 lines
+Changed paths:
+   A /trunk/OptiTaunt/Locale-zhCN.lua
+   M /trunk/OptiTaunt/OptiTaunt.toc
+
+OptiTaunt:
+- zhCN update
+------------------------------------------------------------------------
+r76348 | nebelmond | 2008-06-09 11:18:40 -0400 (Mon, 09 Jun 2008) | 2 lines
+Changed paths:
+   M /trunk/OptiTaunt/Locale-deDE.lua
+   M /trunk/OptiTaunt/Locale-enUS.lua
+   M /trunk/OptiTaunt/Locale-esES.lua
+   M /trunk/OptiTaunt/Locale-frFR.lua
+   M /trunk/OptiTaunt/Locale-koKR.lua
+
+OptiTaunt:
+- localization fixes (UTF-8)
+------------------------------------------------------------------------
+r76174 | nebelmond | 2008-06-06 13:50:54 -0400 (Fri, 06 Jun 2008) | 2 lines
+Changed paths:
+   A /trunk/OptiTaunt/Locale-esES.lua
+   M /trunk/OptiTaunt/OptiTaunt.toc
+
+OptiTaunt:
+- Spanish localization added (thanks to Locksley!)
+------------------------------------------------------------------------
+r75974 | 7destiny | 2008-06-04 03:51:06 -0400 (Wed, 04 Jun 2008) | 2 lines
+Changed paths:
+   A /trunk/OptiTaunt/Locale-koKR.lua
+   M /trunk/OptiTaunt/OptiTaunt.toc
+
+OptiTaunt:
+- Added koKR localization
+------------------------------------------------------------------------

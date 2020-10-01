@@ -1,0 +1,83 @@
+﻿local L = AceLibrary("AceLocale-2.2"):new("OptiTaunt")
+
+L:RegisterTranslations("frFR", function() return {
+    --Addon Stuff
+	["Tooltip"] = "Clic-droit pour les options.",
+	--["Slash-Commands"] = { "/optitaunt", "/ot" },
+	
+	["Statistics"] = "Statistiques",
+	["Taunts"] = "Provocations :",
+	["Resisted"] = "Résistées :",
+	
+	--Skills
+	["Taunt"] = "Provocation",
+	["Mocking Blow"] = "Coup railleur",
+	["Shield Wall"] = "Mur protecteur",
+	["Last Stand"] = "Dernier rempart",
+	["Challenging Shout"] = "Cri de défi",
+	["Righteous Defense"] = "Défense vertueuse",
+	["Avenger's Shield"] = "Bouclier du vengeur",
+	["Growl"] = "Grondement",
+	["Frenzied Regeneration"] = "Régénération frénétique",
+	["Challenging Roar"] = "Rugissement provocateur",
+			
+	--Messages
+	["resistmessage"] = "Alerte ! {t} a résisté à {a} !",
+	["immunemessage"] = "Alerte ! {t} est immunisé contre {a} !",
+	["abilitymessage"] = ">>> {a} activé pendant {d} sec <<<",
+	
+	--Whisper Strings
+	["Resist-Whisper-Message-Warrior"] = "Mais heureusement tu es capable de prendre quelques coups toi-même. :-)",
+	["Resist-Whisper-Message-Druid"] = "Forme d'ours FTW ! :-)",
+	["Resist-Whisper-Message-Paladin"] = "Par le Marteau de justice, tu es à tes risques pour un moment. :-)",
+	["Resist-Whisper-Message-Mage"] = "ICEBLOCK, ICEBLOCK, ICEBLOCK ! :-)",
+	["Resist-Whisper-Message-Warlock"] = "Où est ton Marcheur éthéré ? :-)",
+	["Resist-Whisper-Message-Hunter"] = "Montre ton habileté et feint la mort ! :-)",
+	["Resist-Whisper-Message-Rogue"] = "Temps pour un sprint ? :-)",
+	["Resist-Whisper-Message-Priest"] = "Temps pour une dernière prière... :-)",
+	["Resist-Whisper-Message-Shaman"] = "Toi et tes totems êtes à vos risques pour un moment ! :-)",
+	
+	--Options
+	["opt_name_raidparty"] = "Groupe/Raid",
+	["opt_desc_raidparty"] = "Active les alertes OptiTaunt sur le canal groupe ou raid.",
+	["opt_name_say"] = "Say",
+	["opt_desc_say"] = "Active les alertes OptiTaunt sur le canal say.",
+	["opt_name_autowhisper"] = "Chuchoter",
+	["opt_desc_autowhisper"] = "Chuchote automatiquement une alerte au joueur ayant l'aggro du monstre qui a résisté à la provocation.",
+	["opt_name_raidwarning"] = "Raidwarning",
+	["opt_desc_raidwarning"] = "Active les alertes OptiTaunt sur Raidwarning.",
+	["opt_name_audio"] = "Alerte sonore",
+	["opt_desc_audio"] = "Joue une alerte sonore lorsque la provocation résiste.",
+	["opt_name_aggrocheck"] = "Vérifie l'aggro",
+	["opt_desc_aggrocheck"] = "OptiTaunt fera une alerte uniquement si la provocation est résistée par une cible sur laquelle vous n'avez pas déjà l'aggro.",
+	["opt_name_whisperwarriors"] = "Chuchotement aux guerriers",
+	["opt_desc_whisperwarriors"] = "OptiTaunt chuchotera automatiquement même les guerriers si votre provocation est résistée.",
+	["opt_name_pvpcheck"] = "Vérifie PvP",
+	["opt_desc_pvpcheck"] = "Pas d'alerte en PvP.",
+	["opt_name_output_sink"] = "Sortie (par SinkLib)",
+	["opt_name_announces"] = "Annonce des compétences",
+	["opt_desc_announces"] = "Quelles compétences doivent être annoncées.",
+	["opt_name_output"] = "Sortie (Chat)",
+	["opt_desc_output"] = "Sur quel canal les alertes doivent être annoncées.",
+	["opt_name_outputchannel"] = "Sortie (Channel)",
+	["opt_desc_outputchannel"] = "Sur quel canal les alertes doivent être annoncées.",
+	["opt_name_options"] = "Options supplémentaires",
+	["opt_desc_options"] = "Options supplémentaires",
+	["opt_name_messagetexts"] = "Messages d'alerte",
+	["opt_desc_messagetexts"] = "Editez vos messages d'alerte.",
+	["opt_name_resistmessage"] = "Messages d'alerte : résisté",
+	["opt_usage_resistmessage"] = "\n{t} : targetname\n{a} : compétence",
+	["opt_name_immunemessage"] = "Messages d'alerte : immunisé",
+	["opt_usage_immunemessage"] = "\n{t} : targetname\n{a} : compétence",
+	["opt_name_abilitymessage"] = "Messages d'alerte : compétence activée",
+	["opt_usage_abilitymessage"] = "\n{a} : compétence\n{d} : durée",
+	["Reset counters"] = "Réinit. statistiques",
+	["opt_desc_resetcounters"] = "Réinitialise les statistiques de provocation.",
+	["opt_name_announceresist"] = "Announce resists",
+	["opt_desc_announceresist"] = "Turns announcements of resisted actions on or off.",
+	["opt_name_announceimmue"] = "Announce immune",
+	["opt_desc_announceimmue"] = "Turns announcements of immune actions on or off.",
+	["opt_name_announceability"] = "Announce abilites",
+	["opt_desc_announceability"] = "Turns announcements of abilities on or off.",
+		
+} end)

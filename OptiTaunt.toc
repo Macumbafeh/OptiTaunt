@@ -1,0 +1,26 @@
+## Interface: 20400
+## Title: OptiTaunt |cff7fff7f -Ace2-|r
+## Notes: Announces resisted taunts for druids, warriors and paladins.
+## Notes-frFR: Annonce les provocations résistées pour les druides, guerriers et paladins. 
+## Notes-deDE: Sagt widerstandenen Spott für Krieger, Druiden und Paladine an.
+## Notes-zhCN: 嘲讽抵抗通报
+## Notes-zhTW: 嘲諷抵抗發佈
+## Author: Nebelmond
+## Version: 0.71
+## X-Build: $Revision: 76581 $
+## OptionalDeps: Ace2
+## SavedVariables: OptiTauntDB
+## SavedVariablesPerCharacter: OptiTauntDBPC
+## X-Category: Combat
+
+embeds.xml
+
+Locale-enUS.lua
+Locale-frFR.lua
+Locale-deDE.lua
+Locale-esES.lua
+Locale-koKR.lua
+Locale-zhCN.lua
+Locale-zhTW.lua
+OptiTaunt.lua
+Options.lua
